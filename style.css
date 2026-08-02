@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    border-bottom:1px solid black;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px;
+}
+
+.container{
+    display:flex;
+}
+
+.box{
+    flex:1;
+    border:1px solid black;
+    padding:20px;
+}
+
+.reviews{
+    padding:40px;
+}
+
+.review-container{
+    display:flex;
+    gap:20px;
+}
+
+.review{
+    flex:1;
+    border:1px solid black;
+    border-radius:20px;
+    padding:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+}
